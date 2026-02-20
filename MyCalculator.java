@@ -1,0 +1,30 @@
+class MyCalculator{
+
+void add(int a, int b)
+
+{
+System.out.println(a+b);
+}
+
+void sub(int a, int b)
+
+{
+System.out.println(a-b);
+}
+public static void main(String args[])
+{
+MyCalculator m = new MyCalculator();
+
+m.add(12,30);
+m.sub(12,3);
+System.out.println(m);
+
+
+}
+
+
+public String toString() {
+        return "This is an instance of MyCalculator class";
+    }
+
+}
